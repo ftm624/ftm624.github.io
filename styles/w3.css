@@ -277,6 +277,12 @@ hr {
     margin: 20px 0
 }
 
+.main-img {
+    opacity: 0.5;
+    max-width: 100%;
+    height: auto
+}
+
 .w3-image {
     max-width: 100%;
     height: auto
@@ -285,6 +291,7 @@ hr {
 img {
     vertical-align: middle
 }
+
 
 a {
     color: inherit
