@@ -368,6 +368,8 @@ a {
     white-space: nowrap
 }
 
+
+
 .w3-btn:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
@@ -946,6 +948,7 @@ a {
 }
 
 .w3-top,
+
 .w3-bottom {
     position: fixed;
     width: 100%;
@@ -1625,7 +1628,7 @@ a {
 .w3-black,
 .w3-hover-black:hover {
     color: #fff !important;
-    background-color: #000 !important
+    background-color: rgba(0, 0, 0, 0.493) !important
 }
 
 .w3-grey,
