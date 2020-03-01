@@ -73,7 +73,11 @@ abbr[title] {
     text-decoration: underline dotted
 }
 
-b,
+b {
+    font-weight: normal;
+}
+
+,
 strong {
     font-weight: bolder
 }
@@ -113,6 +117,12 @@ figure {
 
 img {
     border-style: none
+}
+
+i {
+    font-family: Verdana;
+    font-size: .85em;
+    font-weight: lighter;
 }
 
 code,
