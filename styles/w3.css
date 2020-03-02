@@ -73,9 +73,9 @@ abbr[title] {
     text-decoration: underline dotted
 }
 
-b {
+/* b {
     font-weight: normal;
-}
+} */
 
 ,
 strong {
@@ -361,6 +361,10 @@ a {
 .w3-table-all th:first-child,
 .w3-table-all td:first-child {
     padding-left: 16px
+}
+
+.jp-inner {
+    padding-left: 10px;
 }
 
 .w3-btn,
