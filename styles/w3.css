@@ -288,7 +288,7 @@ hr {
 }
 
 .main-img {
-    opacity: 0.15;
+    opacity: 0.45;
     max-width: 100%;
     height: auto
 }
@@ -446,7 +446,7 @@ a {
 
 .w3-tooltip,
 .w3-display-container {
-    position: relative
+    position: relative;
 }
 
 .w3-tooltip .w3-text {
