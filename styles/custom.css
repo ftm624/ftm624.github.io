@@ -7,12 +7,17 @@
 }
 
 #myProgress {
-    width: 100%;
+    width: 50%;
     background-color: grey;
 }
 
 #myBar {
     width: 1%;
     height: 30px;
-    background-color: green;
+    background-color: rgb(129, 138, 224);
+}
+
+body {
+    padding-bottom: 5cm;
+
 }
