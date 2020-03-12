@@ -19,12 +19,18 @@
                 <span class="navbar-brand mb-0 h1">abstract machines</span>
             </a>
 
-            <div class="collapse navbar-collapse" id="navbarText">
-
-                <a href="http://jakepalmert.com/#projects"><button class="btn btn-outline-secondary m-2"> projects
-                    </button></a>
-                <a href="http://jakepalmert.com/#about"><button class="btn btn-outline-secondary m-2"> about
-                    </button></a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a href="http://jakepalmert.com/#projects"><button class="btn btn-outline-secondary m-2">
+                                projects
+                            </button></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="http://jakepalmert.com/#about"><button class="btn btn-outline-secondary m-2"> about
+                            </button></a>
+                    </li>
+                </ul>
             </div>
 
 
@@ -68,7 +74,7 @@
 
                 <h4 id='projects'>Projects</h4>
                 <hr>
-                <div class=" row">
+                <div class="row">
 
                     <div class="col-lg-4 mt-3 mb-3">
                         <a href="http://jakepalmert.com/wctc/" class="stretched-link">
@@ -79,12 +85,15 @@
                                 Classifier</button>
 
                         </a>
-                        <p class="pt-3">
-                            <span> #computer vision</span>
-                            <span> #object detection</span>
-                            <span> #pytorch</span>
+                        <div class="row p-1 m-1">
+                            <button type="button" class="btn btn-sm">#CV</button>
+                            <button type="button" class="btn btn-sm">#object detection</button>
+                            <button type="button" class="btn btn-sm">#pytorch</button>
+                            <button type="button" class="btn btn-sm">#cnn</button>
+                        </div>
 
-                        </p>
+
+
                     </div>
                     <div class="col-lg-4 mt-3 mb-3">
                         <a href="http://jakepalmert.com/er-staff/" class="stretched-link">
@@ -92,9 +101,10 @@
                                 style="width: 300px; height: 200px;">
                             <button type="button" class="btn btn-outline-secondary mt-2">ER Staffing</button>
                         </a>
-                        <p class="pt-3">
-                            <span> #optimization</span>
-                        </p>
+                        <div class="row p-1 m-1">
+                            <button type="button" class="btn btn-sm">#optimization</button>
+
+                        </div>
                     </div>
                 </div>
             </div>

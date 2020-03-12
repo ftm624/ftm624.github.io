@@ -1,21 +1,5 @@
 /* Use these to override bootstrap by having this link come second */
 
-.img-fluid {
-    height: 200px;
-    width: 300px;
-
-}
-
-#myProgress {
-    width: 50%;
-    background-color: grey;
-}
-
-#myBar {
-    width: 1%;
-    height: 30px;
-    background-color: rgb(129, 138, 224);
-}
 
 body {
     padding-bottom: 5cm;
@@ -31,9 +15,7 @@ p {
     padding-left: 1%;
 }
 
-h6 {
-    padding-top: 2%;
-}
+
 
 p span {
 
