@@ -26,7 +26,7 @@
                                 class="btn btn-sm btn-outline-secondary">projects</button>
                         </a>
                     </li>
-                    <a class="nav-item nav-link j" href="http://jakepalmert.com/#about"><button
+                    <a class="nav-item nav-link" href="http://jakepalmert.com/#about"><button
                             class="btn btn-sm btn-outline-secondary">
                             about me</button>
                     </a>
@@ -40,332 +40,190 @@
         </div>
     </nav>
 
-
-
-    <div class="container pt-4">
+    <div class="container-fluid pt-4">
 
         <div class="row">
-            <div class="container p-5 m-3 border rounded shadow bg-light">
-                <div class="d-flex flex-row justify-content-between">
-                    <div>
-                        <h5 class='pt-3 pl-2'> Jake Palmert</h5>
-                        <h6 class='pl-2'>Los Angeles, CA</h6>
-                    </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="row p-4 m-1 border rounded shadow bg-light">
+                    <div class="col">
 
-                    <div>
-                        <img src="images/headshot.jpeg" alt="jp" class="img-thumbnail"
-                            style="height: 150px; width: 150px;">
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <!-- <div class="col pt-3"> -->
-            <div class="container pt-3 m-3 border rounded shadow">
-                <div class="row">
-                    <div class="col p-2 ml-2">
-                        <h5>Skills</h5>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <h6>Languages:</h6>
+                        <img src="images/headshot.jpeg" alt="jp" class="img-fluid">
+                        <h5 class="pt-3"> Jake Palmert</h5>
+                        <h6>Los Angeles, CA</h6>
 
-                        <button type="button" class="btn btn-sm btn-outline bg-light "> Python</button>
-                        <button type="button" class="btn  btn-sm btn-outline bg-light m-1"> HTML, CSS,
+
+                        <h6 class="pt-3">Languages:</h6>
+                        <button type="button" class="btn btn-sm btn-outline-secondary "> Python</button>
+                        <button type="button" class="btn  btn-sm btn-outline-secondary"> HTML, CSS,
                             JS</button>
 
-                    </div>
-                    <div class="col-6">
-                        <h6>Libraries:</h6>
-                        <button type="button" class="btn   btn-sm btn-outline bg-light m-1">NLTK</button>
-                        <button type="button" class="btn  btn-sm btn-outline bg-light m-1">Spacy</button>
-                        <button type="button" class="btn  btn-sm btn-outline bg-light m-1">Pandas </button>
-                        <button type="button" class="btn  btn-sm btn-outline bg-light m-1">scikit learn
+                        <h6 class="pt-3">Libraries:</h6>
+                        <button type="button" class="btn   btn-sm btn-outline-secondary">NLTK</button>
+                        <button type="button" class="btn  btn-sm btn-outline-secondary">Spacy</button>
+                        <button type="button" class="btn  btn-sm btn-outline-secondary ">Pandas </button>
+                        <button type="button" class="btn  btn-sm btn-outline-secondary ">scikit learn
                         </button>
-                        <button type="button" class="btn  btn-sm btn-outline bg-light m-1"> Numpy</button>
+                        <button type="button" class="btn  btn-sm btn-outline-secondary "> Numpy</button>
 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6 pt-3 ">
+                        <h6 class="pt-3">Cloud:</h6>
+                        <button type="button" class="btn btn-sm btn-outline-secondary "> AWS</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary"> GCP</button>
 
-                        <h6>Cloud:</h6>
-                        <button type="button" class="btn btn-sm btn-outline bg-light m-1"> AWS</button>
+                        <h6 class="pt-3">RDS:</h6>
+                        <button type="button" class="btn  btn-sm btn-outline-secondary"> PostGRESQL</button>
 
-                        <button type="button" class="btn btn-sm btn-outline bg-light m-1"> GCP</button>
+                        <h6 class="pt-3">Deep Learning Frameworks:</h6>
+                        <button type="button" class="btn btn-sm btn-outline-secondary"> Pytorch</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Tensorflow</button>
 
-                    </div>
-                    <div class="col-6 pt-3 ">
-                        <h6>RDS:</h6>
-                        <button type="button" class="btn  btn-sm btn-outline bg-light m-1"> PostGRESQL</button>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-6 pt-3 ">
-
-                        <h6>Deep Learning Frameworks:</h6>
-                        <button type="button" class="btn  btn-sm btn-outline bg-light m-1"> Pytorch</button>
-                        <button type="button" class="btn  btn-sm btn-outline bg-light m-1"> Tensorflow</button>
-
-                    </div>
-                    <div class="col-6 pt-3 ">
-                        <h6>Deep Learning Tasks:</h6>
-                        <button type="button" class="btn  btn-sm btn-outline bg-light m-1"> Computer
+                        <h6 class="pt-3">Deep Learning Tasks:</h6>
+                        <button type="button" class="btn btn-sm btn-outline-secondary"> Computer
                             Vision</button>
-                        <button type="button" class="btn  btn-sm btn-outline bg-light m-1">NLP</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">NLP</button>
+
+
 
                     </div>
                 </div>
-                </p>
             </div>
-            <!-- </div> -->
-        </div>
-        <div class="row">
-            <div class="container pt-3 m-3 border rounded shadow">
-                <div class="row">
-                    <div class="col p-2 ml-2">
+            <div class="col">
+                <div class="row p-4 m-1 border rounded shadow">
+                    <div class="col">
+
                         <h5>Recent Projects</h5>
                         <hr>
                         <h6>Wildlife Camera Trap Classifier</h6>
                         <p>Using the Pytorch and working in collaboration with wildlife
                             biologists built a image classification pipeline for camera trap photos.
                         </p>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col p-2 ml-2">
                         <h6>Emergency Room Staffing Optimization</h6>
                         <p>A staffing optimization program with patient volume prediction and provider
                             profile. </p>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col p-2 ml-2">
                         <h6>Social Media Anomaly Detection</h6>
                         <p>Built a social media anomaly detection system that analyzed time
                             series data using a LSTM RNN sentiment analysis model while working at IV.AI.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col p-2 ml-2">
+
                         <h6>Natural Language Generator</h6>
-                        <p>Working directly with an IV.AI client built and trained a NLG that was accessible
+                        <p>Working directly with an IV.AI client built and trained a NLG that was
+                            accessible
                             via a RESTful API
                             as part of a client’s marketing campaign. </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col p-2 ml-2">
+
                         <h6>Automated Video Transcription </h6>
                         <p>Built a GCS program to automatically transcribe +1000 hours of videos with
-                            timestamps for an IV.AI client.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col p-2 ml-2">
+                            timestamps for an IV.AI client. </p>
                         <h6>Dialog Flow Chatbot </h6>
-                        <p>Developed and deployed a Slack chatbot prototype using DialogFlow with a AutoML
-                            backend.</p><br>
+                        <p>Developed and deployed a Slack chatbot prototype using DialogFlow with a
+                            AutoML backend.</p><br>
+
                     </div>
+
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="container pt-3 m-3 border rounded shadow">
-                <div class="row">
-                    <div class="col p-2 ml-2">
+                <div class="row p-4 m-1 mt-4 border rounded shadow">
+                    <div class="col">
                         <h5>Work Experience</h5>
                         <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6 p-2 ml-2">
-                        <h6>IV.AI — Chief of Staff / Junior Machine Learning Engineer</h6>
-                    </div>
-                    <div class="col-3 p-2 ml-2">
-                        <h6> 2018 - 2019 </h6>
-                    </div>
-                    <div class="row pl-3 ml-2 mb-2">
-                        <p>As Chief of Staff was generally responsible for operations. And as a junior ML Engineer
-                            worked
-                            on NLP software dev.</p>
-                    </div>
+                        <h6>IV.AI — 2018 - 2019</h6>
+                        <h6>Chief of Staff / Junior Machine Learning Engineer</h6>
+                        <p>As Chief of Staff was generally responsible for operations. And as a junior ML
+                            Engineer
+                            worked on NLP software dev.</p>
 
-                </div>
-                <div class="row">
-                    <div class="col-6 p-2 ml-2">
-                        <h6>Reena Spaulings Fine Art — Director</h6>
-
-                    </div>
-                    <div class="col-3 pl-2 ml-2">
-                        <h6> 2012 - 2018</h6>
-                    </div>
-                    <div class="row pl-3 ml-2 mb-2">
+                        <h6>Reena Spaulings Fine Art — 2012 - 2018</h6>
+                        <h6>Director </h6>
                         <p>Director of the primary New York location and secondary Los Angeles gallery.</p>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-6 p-2 ml-2">
-                        <h6>Marlborough Gallery — Director</h6>
-
-                    </div>
-                    <div class="col-3 p-2 ml-2">
-                        <h6> 2015 - 2016</h6>
-                    </div>
-                    <div class="row pl-3 ml-2 mb-2">
+                        <h6>Marlborough Gallery — 2015 - 2016</h6>
+                        <h6>Director</h6>
                         <p>Director selling both contemporary and modern art for one
                             of the top art galleries in the world.</p>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-6 p-2 ml-2">
-                        <h6> The Green Gallery — Co-owner </h6>
-                    </div>
-                    <div class="col-3 p-2 ml-2">
-                        <h6> 2008 - Present </h6>
-                    </div>
-                    <div class="row pl-3 ml-2 mb-2">
+                        <h6>The Green Gallery — 2008 - Present </h6>
+                        <h6>Co-owner </h6>
                         <p>Co-founded a contemporary art exhibition space and art advisory business
                             that is
                             currently still in business.</p>
                     </div>
-
                 </div>
-            </div>
 
-        </div>
-
-        <div class="row">
-            <div class="container pt-3 m-3 border rounded shadow">
-                <h5>Education</h5>
-                <hr>
-
-                <div class='row p-1 m-1'>
-                    <div class="col-6">
+                <div class="row p-4 m-1 mt-4 border rounded shadow">
+                    <div class="col">
+                        <h5>Education</h5>
+                        <hr>
                         <h6>University of Wisconsin Milwaukee </h6>
-
-                    </div>
-                    <div class="col-3">
                         <h6>2004-2007 </h6>
+                        <p>Bachelor's degree in Philosophy</p>
                     </div>
 
                 </div>
-                <div class="row pl-3 ml-2 mb-2">
-                    <p>Bachelor's degree in Philosophy</p>
-                </div>
+                <div class="row p-4 m-2 mt-4  border rounded shadow">
+                    <div class="col">
+                        <h5>Certificates</h5>
+                        <hr>
 
-                <br>
+                        <h6>Machine Learning Certification 2019</h6>
+                        <p>eCornell University</p>
+
+
+
+
+                        <h6>Data Science in Python 2019</h6>
+
+                        <p>University of Michigan Coursera</p>
+
+                        <h6>Applied Machine Learning in Python 2018 </h6>
+
+                        <p>University of Michigan Coursera</p>
+
+                        <h6>Applied Social Network Analysis in Python 2018 </h6>
+
+
+                        <p>University of Michigan Coursera</p>
+
+                        <h6>Neural Networks and Deep Learning 2017</h6>
+
+                        <p>deeplearning.ai</p>
+
+                        <h6>Improving Deep Neural Networks 2017 </h6>
+
+                        <p>deeplearning.ai</p>
+
+                        <h6>Structuring Machine Learning Projects 2017 </h6>
+
+                        <p>deeplearning.ai</p>
+                    </div>
+                </div> <br>
             </div>
 
+
+
         </div>
-        <div class="row">
-            <div class="container pt-3 m-3 border rounded shadow">
-
-                <h5>Certificates</h5>
-                <hr>
-                <div class='row p-1 m-1'>
-                    <div class="col-6">
-                        <h6>Machine Learning Certification </h6>
-
-                    </div>
-                    <div class="col-3">
-                        <h6>2019 </h6>
-                    </div>
-
-                </div>
-                <div class="row pl-3 ml-2 mb-2">
-                    <p>eCornell University</p>
-                </div>
 
 
-                <div class='row p-1 m-1'>
-                    <div class="col-6">
-
-                        <h6>Data Science in Python</h6>
-
-                    </div>
-                    <div class="col-3">
-                        <h6> 2019</h6>
-                    </div>
-                </div>
-                <div class="row pl-3 ml-2 mb-2">
-                    <p>University of Michigan Coursera</p>
-                </div>
-                <div class='row p-1 m-1'>
-                    <div class="col-6">
-
-                        <h6>Applied Machine Learning in Python </h6>
-
-                    </div>
-                    <div class="col-3">
-                        <h6>2018 </h6>
-                    </div>
-                </div>
-                <div class="row pl-3 ml-2 mb-2">
-                    <p>University of Michigan Coursera</p>
-                </div>
-
-                <div class='row p-1 m-1'>
-                    <div class="col-6">
-                        <h6>Applied Social Network Analysis in Python </h6>
-                    </div>
-                    <div class="col-3">
-                        <h6>2018 </h6>
-                    </div>
-                </div>
-
-                <div class="row pl-3 ml-2 mb-2">
-                    <p>University of Michigan Coursera</p>
-                </div>
-                <div class='row p-1 m-1'>
-                    <div class="col-6">
-                        <h6>Neural Networks and Deep Learning </h6>
-
-                    </div>
-                    <div class="col-3">
-                        <h6>2017</h6>
-                    </div>
-                </div>
-                <div class="row pl-3 ml-2 mb-2">
-                    <p>deeplearning.ai</p>
-                </div>
-
-                <div class='row p-1 m-1'>
-                    <div class="col-6">
-                        <h6>Improving Deep Neural Networks</h6>
-                    </div>
-                    <div class="col-3">
-                        <h6>2017 </h6>
-                    </div>
-                </div>
-                <div class="row pl-3 ml-2">
-                    <p>deeplearning.ai</p>
-                </div>
-
-                <div class='row p-1 m-1 mb-2'>
-                    <div class="col-6">
-                        <h6>Structuring Machine Learning Projects </h6>
-                    </div>
-                    <div class="col-3">
-                        <h6>2017 </h6>
-                    </div>
-                </div>
-                <div class="row pl-3 ml-2 mb-2">
-                    <p>deeplearning.ai</p>
-                </div>
-            </div> <br>
-        </div>
+        <!-- main row -->
     </div>
 
+
+    <!-- container -->
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+    <div class="row">
+
+    </div>
+    </div>
+    </div>
 
 
 
