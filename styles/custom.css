@@ -6,10 +6,9 @@ body {
 
 }
 
-/* h5 {
-    font-weight: 600;
-
-} */
+a {
+    text-decoration: none
+}
 
 p {
     padding-left: 1%;
@@ -17,8 +16,4 @@ p {
 
 button {
     margin: 4px;
-}
-
-hr.dots {
-    border-top: 1px dashed grey;
 }
